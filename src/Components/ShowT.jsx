@@ -8,7 +8,7 @@ function ShowT(props) {
     return <>
         <div className='box'>
             <div className='container'>
-                <img src={props.img} alt="image" height={"200px"} width={"250px"} />
+                <img src={props.img} alt="error" height={"200px"} width={"250px"} />
                 <div className='details'>
                     <h1 className='heading'>{props.name1}</h1>
                     <p>{props.detail}</p>
